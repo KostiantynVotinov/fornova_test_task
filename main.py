@@ -44,4 +44,14 @@ output_file_path = "outgoing file/room_prices_output.json"
 with open(output_file_path, "w") as file:
     json.dump(output, file, indent=4)  # Save data with indentation for readability
 
-print(f"Results have been saved to {output_file_path}")  # Print confirmation message
+# Print results in a formatted way
+print("\n=== Cheapest Room Information ===")
+print(f"Room Type: {output['cheapest_room']}")
+print(f"Number of Guests: {output['number_of_guests']}")
+print(f"Cheapest Price: ${output['cheapest_price']:.2f}")
+
+print("\n=== Total Prices for All Room Types (Net + Taxes) ===")
+for room_type, total_price in output['room_totals'].items():
+    print(f"Room Type: {room_type} - Total Price: ${total_price:.2f}")
+
+print(f"\nResults have also been saved to '{output_file_path}'")
