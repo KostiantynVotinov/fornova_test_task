@@ -18,11 +18,13 @@ This script was developed as a test task to analyze and process hotel room prici
 Upon running the script, the following output is displayed:
 
 === Cheapest Room Information ===
+
 Room Type: King Studio Suite - Non Smoking
 Number of Guests: 4
 Cheapest Price: $90.00
 
 === Total Prices for All Room Types (Net + Taxes) ===
+
 Room Type: King Studio Suite - Hearing Accessible/Non-Smoking - Total Price: $131.76
 Room Type: King Studio Suite - Non Smoking - Total Price: $108.71
 Room Type: King Room - Mobility/Hearing Accessible - Non-Smoking - Total Price: $133.76
