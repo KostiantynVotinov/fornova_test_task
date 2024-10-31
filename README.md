@@ -18,7 +18,6 @@ This script was developed as a test task to analyze and process hotel room prici
 Upon running the script, the following output is displayed:
 
 === Cheapest Room Information ===
-
 Room Type: King Studio Suite - Non Smoking
 Number of Guests: 4
 Cheapest Price: $90.00
